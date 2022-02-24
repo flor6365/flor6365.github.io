@@ -12,11 +12,11 @@ body
 {
 	text-align: center;
 	list-style-position: inside;
-	background-color:  var(red);
+	background-color:  var(--red);
 }
 header
 {
-	background-color:  rosewood;
+	background-color:  --rosewood;
 	border: 5px dashed black;
 	margin: 10px 100px;
 }
