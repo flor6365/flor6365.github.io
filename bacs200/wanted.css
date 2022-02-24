@@ -1,23 +1,23 @@
 /*
 *
 {
-	border: 1px solid brown;
+	border: 1px solid black;
 }
 */
 :root
 {
-	--old-western-brown: rgb(100,50,18);
+	--red: rgb(255,25,25);
 }
 body
 {
 	text-align: center;
 	list-style-position: inside;
-	background-color:  var(--old-western-brown);
+	background-color:  var(red);
 }
 header
 {
-	background-color:  sandybrown;
-	border: 5px dashed brown;
+	background-color:  rosewood;
+	border: 5px dashed black;
 	margin: 10px 100px;
 }
 header h1
@@ -29,7 +29,7 @@ header h1
 header h2
 {
 	font-size:  20pt;
-	color: var(--old-western-brown);
+	color: var(red);
 	font-variant: small-caps;
 }
 main h1
