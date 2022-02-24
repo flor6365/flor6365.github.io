@@ -6,13 +6,13 @@
 */
 :root
 {
-	-red: rgb(255,25,25);
+	red: rgb(255,25,25);
 }
 body
 {
 	text-align: center;
 	list-style-position: inside;
-	background-color:  var(-red);
+	background-color:  var(red);
 }
 header
 {
