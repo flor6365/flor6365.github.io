@@ -6,13 +6,13 @@
 */
 :root
 {
-	red: rgb(255,25,25);
+	--my-red: rgb(255,25,25);
 }
 body
 {
 	text-align: center;
 	list-style-position: inside;
-	background-color:  var(red);
+	background-color:  var(--my-red);
 }
 header
 {
@@ -29,7 +29,7 @@ header h1
 header h2
 {
 	font-size:  20pt;
-	color: var(red);
+	color: var(--my-red);
 	font-variant: small-caps;
 }
 main h1
