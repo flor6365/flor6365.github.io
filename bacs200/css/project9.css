@@ -6,18 +6,18 @@
 */
 :root
 {
-	--my-red: rgb(255,25,25);
+	--my-blue: rgb(0,0,255);
 }
 body
 {
 	text-align: center;
 	list-style-position: inside;
-	background-color:  var(--my-red);
+	background-color:  var(--my-blue);
 }
 header
 {
-	background-color:  maroon;
-	border: 5px dashed black;
+	background-color:  brandeis blue;
+	border: 5px solid white;
 	margin: 10px 100px;
 }
 header h1
@@ -35,7 +35,7 @@ header h2
 main h1
 {
 	font-size:  70pt;
-	font-family: 'Brush Script MT', cursive;
+	font-family: 'Georgia, serif', cursive;
 	margin: 0;
 }
 h1+h2
