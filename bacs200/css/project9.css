@@ -12,7 +12,7 @@ body
 {
 	text-align: center;
 	text-color: white;
-	list-style-position: inline-center;
+	list-style-position: center-inline;
 	background-color:  var(--my-blue);
 }
 header
