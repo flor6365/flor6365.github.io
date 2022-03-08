@@ -1,0 +1,62 @@
+/*
+*
+{
+	border: 1px solid black;
+}
+*/
+:root
+{
+	--my-red: rgb(255,25,25);
+}
+body
+{
+	text-align: center;
+	list-style-position: inside;
+	background-color:  var(--my-red);
+}
+header
+{
+	background-color:  maroon;
+	border: 5px dashed black;
+	margin: 10px 100px;
+}
+header h1
+{
+	font-size:  60pt;
+	margin-top:  10px;
+	margin-bottom: 0;
+}
+header h2
+{
+	font-size:  20pt;
+	color: var(--my-red);
+	font-variant: small-caps;
+}
+main h1
+{
+	font-size:  70pt;
+	font-family: 'Brush Script MT', cursive;
+	margin: 0;
+}
+h1+h2
+{
+	margin-top: -15px;
+}
+main h2
+{
+	text-decoration: underline;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+main ul
+{
+	display:  table;
+	margin: 0 auto;
+	text-align:  left;
+	padding-left: 2px;
+}
+#wantedlist
+{
+	font-size: 25pt;
+	float:  right;
+}
