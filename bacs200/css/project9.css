@@ -6,14 +6,14 @@
 */
 :root
 {
-	--my-blue: rgb(0,0,255);
+	--my-rad-red: rgb(255,25,64);
 }
 body
 {
 	text-align: center;
 	text-color: white;
 	list-style-position: center-inline;
-	background-color:  var(--my-blue);
+	background-color:  var(--my-rad-red);
 }
 header
 {
