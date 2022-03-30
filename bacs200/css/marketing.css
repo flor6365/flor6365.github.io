@@ -59,5 +59,6 @@ main ul
 	display:  table;
 	text-color: white;
 	text-align:  center;
+	list-style-position: center-inline;
 	padding-left: 2px;
 }
