@@ -1,7 +1,7 @@
 /*
 *
 {
-	border: 3px dash white;
+	border: 1px solid black;
 }
 */
 :root
@@ -11,21 +11,21 @@
 body
 {
 	text-align: center;
-	text-color: black;
+	text-color: white;
 	list-style-position: center-inline;
 	background-color:  var(--lav-gray);
 }
 header
 {
 	background-color:  brandeis blue;
-	text-color: black;
-	border: 5px dashed white;
+	text-color: white;
+	border: 5px solid white;
 	margin: 10px 100px;
 }
 header h1
 {
 	font-size:  60pt;
-	text-color: black;
+	text-color: white;
 	margin-top:  10px;
 	margin-bottom: 0;
 }
@@ -33,13 +33,13 @@ header h2
 {
 	font-size:  20pt;
 	text-color: white;
-	color: var(--lav-gray);
+	color: var(--my-red);
 	font-variant: small-caps;
 }
 main h1
 {
 	font-size:  70pt;
-	text-color: black;
+	text-color: white;
 	font-family: 'Georgia, serif', cursive;
 	margin: 0;
 }
@@ -50,14 +50,15 @@ h1+h2
 main h2
 {
 	text-decoration: underline;
-	text-color: black;
+	text-color: white;
 	font-weight: bold;
 	margin-bottom: 0;
 }
 main ul
 {
 	display:  table;
-	text-color: black;
+	text-color: white;
+	margin: 0 auto;
 	text-align:  left;
 	padding-left: 2px;
 }
