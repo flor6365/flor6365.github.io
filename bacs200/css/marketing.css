@@ -19,7 +19,7 @@ header
 {
 	background-color:  brandeis blue;
 	text-color: white;
-	border: 5px solid white;
+	border: 5px dashed white;
 	margin: 10px 100px;
 }
 header h1
