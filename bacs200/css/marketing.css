@@ -12,6 +12,7 @@ body
 {
 	text-align: center;
 	text-color: white;
+	border: 5px dashed white;
 	list-style-position: center-inline;
 	background-color:  var(--lav-gray);
 }
