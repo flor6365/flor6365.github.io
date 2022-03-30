@@ -19,7 +19,7 @@ header
 {
 	background-color:  brandeis blue;
 	text-color: white;
-	border: 5px dash white;
+	border: 5px solid white;
 	margin: 10px 100px;
 }
 header h1
@@ -33,7 +33,7 @@ header h2
 {
 	font-size:  20pt;
 	text-color: white;
-	color: var(--lav-gray);
+	color: var(--my-red);
 	font-variant: small-caps;
 }
 main h1
