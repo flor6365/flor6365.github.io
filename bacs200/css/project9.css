@@ -15,11 +15,19 @@ body
 	list-style-position: center-inline;
 	background-color:  var(--my-rad-red);
 }
+@font-face {
+	font-family: 'DirtyHeadline';
+	src: url('fonts/dirty_headline-webfont.eot');
+	src: local('?'),
+	url('fonts/dirty_headline-webfont.woff') format('woff'), 
+	url('fonts/dirty_headline-webfont.ttf') format('truetype'), 
+	url('fonts/dirty_headline-webfont.svg#webfontzwLyc702') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 header
 {
 	background-color:  brandeis blue;
-        font-family: DejaVu Serif Web;
-        src: url(/fonts/DejaVu/ttf/DejaVuSerif.ttf) format("truetype");
 	text-color: white;
 	border: 5px solid white;
 	margin: 10px 100px;
