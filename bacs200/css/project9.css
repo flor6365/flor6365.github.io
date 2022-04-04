@@ -18,6 +18,8 @@ body
 header
 {
 	background-color:  brandeis blue;
+        font-family: DejaVu Serif Web;
+        src: url(/fonts/DejaVu/ttf/DejaVuSerif.ttf) format("truetype");
 	text-color: white;
 	border: 5px solid white;
 	margin: 10px 100px;
