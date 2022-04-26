@@ -63,3 +63,7 @@ main ul
 	text-align:  left;
 	padding-left: 2px;
 }
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
